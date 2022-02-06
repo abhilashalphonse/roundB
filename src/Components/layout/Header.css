@@ -1,0 +1,37 @@
+.logoName{
+    font-family:  'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.offcanvas-backdrop{
+    background-color: hsla(0,0%,100%,.2) !important;
+}
+.offcanvas {
+    width: 17%; 
+}
+
+.nav-link{
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid #aaa;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.nav-link:hover {
+    color: unset;
+}
+
+@media (max-width: 767px){
+    .offcanvas{
+        width: 100vw;
+    }
+    .nav-link{
+        font-size: 16px;
+        text-align: start;
+        margin: 20px 0px;
+    }
+}

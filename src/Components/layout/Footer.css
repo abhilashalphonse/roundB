@@ -1,0 +1,50 @@
+.footer{
+    display: flex;
+    width: 100%;
+    padding: 20px 25px;
+}
+
+.containerFooter{
+    width: 50%;
+}
+
+.con1{
+    font-size: 12px;
+    color: grey;
+    font-family:  'Roboto', sans-serif;
+    display: flex;
+    width: 50%;
+}
+.con1 div{
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    font-family:  'Roboto', sans-serif;
+    align-items: center;
+    
+}
+
+.con2{
+    text-align: right;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    font-family:  'Roboto', sans-serif;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.vertical-line-spacer-footer{
+    font: 16px/26px DIN_Regular,Roboto Light,Arial,Verdana,geneva,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    color: #fff;
+    width: 1px;
+    background-color: #fff;
+    border-radius: 1px;
+    height: 10px;
+    margin: -5px 10px 0px 10px;
+    align-self: center;
+}
